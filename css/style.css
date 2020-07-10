@@ -1,9 +1,20 @@
 body {
   margin: 0;
+  font-family: "PT Serif", serif;
   /* padding: 0; */
 }
 strong {
   color: #c91d15;
+}
+
+h2 {
+  color: #c91d15;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
 }
 /* font-family: 'Bangers', cursive;
 font-family: 'PT Serif', serif; */
@@ -69,6 +80,49 @@ font-family: 'PT Serif', serif; */
 .hero-img {
   object-fit: cover;
   box-shadow: 0 0 5px 0 #03071e;
+}
+/* **********************************************
+ ************Contenido Principal***************
+************************************************* */
+.discos {
+  background-color: #fafafa;
+  padding: 20px;
+}
+.disco {
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.disco__title {
+  font-family: "Bangers", cursive;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.disco__title,
+.disco__discografia,
+.disco_url {
+  margin: 10px 0;
+}
+.disco__detalles {
+  width: 500px;
+}
+
+.disco span {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+
+.disco__description {
+  font-size: 20px;
+  font-family: "PT Serif", serif;
 }
 
 /* 
