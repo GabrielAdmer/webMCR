@@ -2,6 +2,9 @@ body {
   margin: 0;
   /* padding: 0; */
 }
+strong {
+  color: #c91d15;
+}
 /* font-family: 'Bangers', cursive;
 font-family: 'PT Serif', serif; */
 
@@ -50,7 +53,22 @@ font-family: 'PT Serif', serif; */
 ************************************************* */
 
 .hero {
+  height: 300px;
+  background-color: #000000;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
+.hero h1 {
+  font-family: "PT Serif", serif;
+  letter-spacing: -1px;
+  font-size: 35px;
+}
+
+.hero-img {
+  object-fit: cover;
+  box-shadow: 0 0 5px 0 #03071e;
 }
 
 /* 
@@ -63,4 +81,5 @@ font-family: 'PT Serif', serif; */
   height: inherit;
   display: inherit;
   justify-content: inherit;
+  align-items: inherit;
 }
