@@ -1,120 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/response.css" />
+    <title>Portafolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=PT+Serif:wght@400;700&display=swap"
-    rel="stylesheet" />
-  <title>Portafolio</title>
-</head>
-
-<body>
-  <!-- ********Header******** -->
-  <header class="header">
-    <div class="wrapper">
-      <figure class="logo">
-        <img width="90px" src="./img/logoMCR.png" alt="logo" />
-        <p>my chemical romance</p>
-      </figure>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Estilo</a></li>
-          <li><a href="#">Discografia</a></li>
-          <li><a href="#">Musica</a></li>
-        </ul>
-      </nav>
+  <body>
+    <!-- ********Header******** -->
+    <div class="container-button">
+      <img src="img/icon-menu.png" width="25px" height="25px" alt="menu" />
     </div>
-  </header>
-  <!-- 
+    <header class="header">
+      <div class="wrapper">
+        <figure class="logo">
+          <img width="90px" src="./img/logoMCR.png" alt="logo" />
+
+          <p>my chemical romance</p>
+        </figure>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Estilo</a></li>
+            <li><a href="#">Discografia</a></li>
+            <li><a href="#">Musica</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- 
       **********************************************
       ************Contenido Principal***************
     ************************************************* -->
-  <section class="hero">
-    <div class="wrapper">
-      <h1>
-        My Chemical <strong>Romance</strong> es <br />
-        una banda estadounidense de <strong>rock</strong>
-      </h1>
-      <figure class="container-img"></figure>
-      <img class="hero-img" width="480px" height="300px" src="./img/My-Chemical-Romance .jpg" alt="banda" />
-      </figure>
-    </div>
-  </section>
+    <section class="hero">
+      <div class="wrapper">
+        <h1>
+          My Chemical <strong>Romance</strong> es <br />
+          una banda estadounidense de <strong>rock</strong>
+        </h1>
+        <figure class="container-img">
+          <img
+            class="hero-img"
+            width="480px"
+            height="300px"
+            src="./img/My-Chemical-Romance .jpg"
+            alt="banda"
+          />
+        </figure>
+      </div>
+    </section>
 
-  <!-- 
+    <!-- 
       **********************************************
       ************Contenido Discografia***************
     ************************************************* -->
-  <section class="discos">
-    <div class="wrapper">
-      <h2>Discografía (Discos más populares)</h2>
-      <article class="disco">
-        <div class="disco__detalles">
-          <h3 class="disco__title">The Black Parade</h3>
-          <h6 class="disco__discografia">Reprise Records</h6>
-          <p>
-            <small><span>Fecha: </span> 23 de octubre de 2006</small>
-          </p>
-          <p class="disco_url">
-            <small><span>Puedes verlo en: </span> www.blackParade.com</small>
-          </p>
-          <p class="disco__description">
-            Al igual que las dos producciones anteriores de la banda, este es un álbum conceptual, centrado esta vez en
-            la historia de un personaje moribundo conocido como el Paciente, que sufre de cáncer. Durante el disco, el
-            Paciente descubre que su enfermedad es terminal, y realiza una reflexión sobre su vida, mientras su muerte
-            va apareciendo representada por un desfile.
-          </p>
-        </div>
+    <section class="discos">
+      <div class="wrapper">
+        <h2>Discografía (Discos más populares)</h2>
+        <article class="disco">
+          <div class="disco__detalles">
+            <h3 class="disco__title">The Black Parade</h3>
+            <h6 class="disco__discografia">Reprise Records</h6>
+            <p>
+              <small><span>Fecha: </span> 23 de octubre de 2006</small>
+            </p>
+            <p class="disco_url">
+              <small><span>Puedes verlo en: </span> www.blackParade.com</small>
+            </p>
+            <p class="disco__description">
+              Al igual que las dos producciones anteriores de la banda, este es
+              un álbum conceptual, centrado esta vez en la historia de un
+              personaje moribundo conocido como el Paciente, que sufre de
+              cáncer. Durante el disco, el Paciente descubre que su enfermedad
+              es terminal, y realiza una reflexión sobre su vida, mientras su
+              muerte va apareciendo representada por un desfile.
+            </p>
+          </div>
 
-        <figure class="disco__container">
-          <img src="./img/blackParade.jpg" alt="black" width="400px" class="disco__img">
-        </figure>
+          <figure class="disco__container">
+            <img
+              src="./img/blackParade.jpg"
+              alt="black"
+              width="500px"
+              class="disco__img"
+            />
+          </figure>
+        </article>
+      </div>
+      <div class="wrapper">
+        <article class="disco">
+          <figure class="disco__container">
+            <img
+              src="./img/disco2.jpg"
+              alt="black"
+              width="400px"
+              class="disco__img"
+            />
+          </figure>
+          <div class="disco__detalles">
+            <h3 class="disco__title">Three cheers for sweet revenge</h3>
+            <h6 class="disco__discografia">Reprise Records</h6>
+            <p>
+              <small><span>Fecha: </span> 17 de marzo de 2004</small>
+            </p>
+            <p class="disco_url">
+              <small><span>Puedes verlo en: </span> www.mcr.com</small>
+            </p>
+            <p class="disco__description">
+              Para promocionar el disco, la banda, durante 2004 y 2005, realizó
+              presentaciones en medios de comunicación, participó en festivales
+              y llevó a cabo su primera gira mundial. De las trece canciones del
+              álbum, tres se eligieron como sencillos: «I'm not okay (I
+              promise)», «Helena» y «The ghost of you». Ha recibido
+              certificaciones como disco de oro o platino en diversos países de
+              América y Europa.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-      </article>
-    </div>
-    <div class="wrapper">
-
-      <article class="disco">
-        <figure class="disco__container">
-          <img src="./img/disco2.jpg" alt="black" width="400px" class="disco__img">
-        </figure>
-        <div class="disco__detalles">
-          <h3 class="disco__title">Three cheers for sweet revenge</h3>
-          <h6 class="disco__discografia">Reprise Records</h6>
-          <p>
-            <small><span>Fecha: </span> 17 de marzo de 2004</small>
-          </p>
-          <p class="disco_url">
-            <small><span>Puedes verlo en: </span> www.mcr.com</small>
-          </p>
-          <p class="disco__description">
-            Para promocionar el disco, la banda, durante 2004 y 2005, realizó presentaciones en medios de comunicación,
-            participó en festivales y llevó a cabo su primera gira mundial. De las trece canciones del álbum, tres se
-            eligieron como sencillos: «I'm not okay (I promise)», «Helena» y «The ghost of you». Ha recibido
-            certificaciones como disco de oro o platino en diversos países de América y Europa.
-          </p>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- 
+    <!-- 
       **********************************************
       ************Contenido Musica***************
     ************************************************* -->
 
-  <section class="musica">
+    <!-- <section class="musica">
     <div class="wrapper">
       <h2>Musica (favoritas) </h2>
       <div class="articles__containers">
-        <article>
+        <article class="article">
           <figure>
-            <img src="./img/cancer.jpg" width="500px" height="300px" alt="cancer">
+            <img src="./img/musica0.jpg" width="500px" height="300px" alt="cancer">
           </figure>
-          <div>
-            <h3>Cancer</h3>
+          <div class="description__letra">
+            <h3>The Black Parade</h3>
             <p class="letra">
               Turn away
               If you could get me a drink
@@ -126,13 +151,50 @@
             <button>Ver letra</button>
           </div>
         </article>
-        
-        <article>
+
+        <article class="article">
           <figure>
-            <img src="./img/cancer.jpg" width="500px" height="300px" alt="cancer">
+            <img src="./img/musica1.jpg" width="500px" height="300px" alt="cancer">
           </figure>
-          <div>
-            <h3>Cancer</h3>
+          <div class="description__letra">
+            <h3>
+              Blood</h3>
+            <p class="letra">
+              Turn away
+              If you could get me a drink
+              Of water 'cause my lips are chapped and faded
+              Call my aunt Marie
+              Help her gather all my things
+              And bury me in all my......
+            </p>
+            <button>Ver letra</button>
+          </div>
+        </article>
+
+        <article class="article">
+          <figure>
+            <img src="./img/musica2.jpg" width="500px" height="300px" alt="cancer">
+          </figure>
+          <div class="description__letra">
+            <h3>Dead!</h3>
+            <p class="letra">
+              Turn away
+              If you could get me a drink
+              Of water 'cause my lips are chapped and faded
+              Call my aunt Marie
+              Help her gather all my things
+              And bury me in all my......
+            </p>
+            <button>Ver letra</button>
+          </div>
+        </article>
+
+        <article class="article">
+          <figure>
+            <img src="./img/musica3.jpg" width="500px" height="300px" alt="cancer">
+          </figure>
+          <div class="description__letra">
+            <h3>I don't love you</h3>
             <p class="letra">
               Turn away
               If you could get me a drink
@@ -146,7 +208,55 @@
         </article>
       </div>
     </div>
-  </section>
-</body>
+  </section> -->
 
+    <!-- 
+      **********************************************
+      ************Contenido COntacto***************
+    ************************************************* -->
+
+    <!-- <section id="contacto" class="contact">
+    <div class="wrapper">
+      <form action="#" class="form_email">
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="Dejame tu email" />
+        <button>Enviar</button>
+      </form>
+      <div class="social">
+        <a href="#" class="social-link twitter"></a>
+        <a href="#" class="social-link facebook"></a>
+        <a href="#" class="social-link github"></a>
+        <a href="#" class="social-link instagran"></a>
+      </div>
+    </div>
+  </section> -->
+
+    <!-- footer -->
+
+    <!-- <footer class="footer">
+    <div class="wrapper">
+      <div>
+        <p>
+          Curso de desarrollo web
+          <img width="80px" src="../img/platzi.png" alt="platzi" />
+        </p>
+      </div>
+      <div>
+        <p>
+          Design with ❤️️ by
+          <a href="hhtps://thespianartist">@thespianartist</a>
+        </p>
+      </div>
+    </div>
+  </footer> -->
+
+    <script>
+      const button = document.querySelector(".container-button");
+      const menu = document.querySelector(".menu");
+
+      button.addEventListener("click", () => {
+        menu.classList.toggle("is-active");
+      });
+    </script>
+  </body>
 </html>

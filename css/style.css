@@ -23,10 +23,27 @@ font-family: 'PT Serif', serif; */
 **********Contenido del Header**************
 ****************************************** */
 
+.container-button {
+  width: 40px;
+  height: 40px;
+  background-color: #fd1307;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  cursor: pointer;
+  display: none;
+}
+
 .header {
   background-color: #000000;
   height: 90px;
   display: flex;
+  flex: 1;
   justify-content: space-between;
 }
 .logo {
@@ -70,11 +87,12 @@ font-family: 'PT Serif', serif; */
   justify-content: space-between;
   align-items: flex-start;
   color: white;
+  overflow: hidden;
 }
 .hero h1 {
   font-family: "PT Serif", serif;
   letter-spacing: -1px;
-  font-size: 35px;
+  font-size: 2.5em;
 }
 
 .hero-img {
@@ -112,7 +130,13 @@ font-family: 'PT Serif', serif; */
   margin: 10px 0;
 }
 .disco__detalles {
-  width: 500px;
+  width: 50%;
+}
+.disco__container {
+  width: 50%;
+}
+.disco__container img {
+  width: 100%;
 }
 
 .disco span {
@@ -125,12 +149,138 @@ font-family: 'PT Serif', serif; */
   font-family: "PT Serif", serif;
 }
 
+/*  **********************************************
+      ************Contenido Musica***************
+    *************************************************  */
+.musica {
+  background-color: #fafafa;
+}
+.articles__containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article {
+  width: 480px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article img {
+  width: 460px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.description__letra {
+  margin: 20px 40px;
+  position: relative;
+  width: 300px;
+  margin-top: -70px;
+
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+.article button {
+  color: #056fff;
+  border: 1px solid #056fff;
+
+  padding: 5px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*   **********************************************
+      ************Contenido Musica***************
+    ************************************************* */
+.contact {
+  background-color: #c91d15;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  /* border: 1px solid white; */
+}
+.social-link.twitter {
+  background-image: url("../img/twitter.svg");
+  background-size: 50px 50px;
+}
+.social-link.facebook {
+  background-image: url("../img/facebook.svg");
+  background-size: 50px 50px;
+}
+.social-link.github {
+  background-image: url("../img/github.svg");
+  background-size: 50px 50px;
+}
+.social-link.instagran {
+  background-image: url("../img/instagram.svg");
+  background-size: 50px 50px;
+}
+
+.form_email input {
+  border-color: gray;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px 20px 10px 25px;
+  background-image: url("./images/envelope.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form_email button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 5px 0px;
+  border-radius: 5px;
+  width: 100px;
+  /* margin: 0 auto; */
+  margin-top: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+/* 
+**********************************
+******Etiqueta footer****
+********************************** */
+.footer {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer img {
+  vertical-align: middle;
+}
+.footer a {
+  color: white;
+  padding: 10px;
+}
 /* 
 **********************************
 ******Etiqueta global wrapper****
 ********************************** */
 .wrapper {
-  width: 1000px;
+  max-width: 1000px;
+  flex: inherit;
   margin: 0 auto;
   height: inherit;
   display: inherit;
