@@ -211,7 +211,7 @@ font-family: 'PT Serif', serif; */
 }
 
 /*   **********************************************
-      ************Contenido Musica***************
+      ************Contenido contaco formulario***************
     ************************************************* */
 .contact {
   background-color: #c91d15;
@@ -227,23 +227,24 @@ font-family: 'PT Serif', serif; */
   width: 50px;
   height: 50px;
   margin: 0 10px;
+  background-size: 50px 50px;
   /* border: 1px solid white; */
 }
 .social-link.twitter {
   background-image: url("../img/twitter.svg");
-  background-size: 50px 50px;
+  /* background-size: 50px 50px; */
 }
 .social-link.facebook {
   background-image: url("../img/facebook.svg");
-  background-size: 50px 50px;
+  /* background-size: 50px 50px; */
 }
 .social-link.github {
   background-image: url("../img/github.svg");
-  background-size: 50px 50px;
+  /* background-size: 50px 50px; */
 }
 .social-link.instagran {
   background-image: url("../img/instagram.svg");
-  background-size: 50px 50px;
+  /* background-size: 50px 50px; */
 }
 
 .form_email input {

@@ -1,0 +1,183 @@
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 0 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-button {
+    display: flex;
+  }
+  .header {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .menu {
+    position: fixed;
+    background-color: rgb(201, 30, 21, 0.9);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -100vw;
+    transition: 0.5s ease;
+    z-index: 99;
+  }
+  .is-active {
+    left: 0;
+  }
+  .menu ul {
+    width: inherit;
+    height: auto;
+    display: block;
+  }
+  .menu ul li {
+    width: 100%;
+    height: 100px;
+  }
+  .menu ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* *************************************** */
+
+  .hero {
+    padding: 1px;
+    display: inherit;
+    position: relative;
+    z-index: 3;
+  }
+  .hero h1 {
+    text-shadow: 2px 2px 2px #000;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: 2em;
+    padding: 2em 0 0 0;
+  }
+
+  .hero-img {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+  }
+
+  /* ¨******************************************** */
+
+  .disco {
+    display: block;
+  }
+  .disco__detalles {
+    width: 100%;
+  }
+  .disco__container {
+    width: auto;
+    text-align: center;
+  }
+  .disco__title {
+    font-size: 1.7em;
+  }
+  .disco__discografia {
+    font-size: 0.6em;
+  }
+  .disco__discografia,
+  .disco__url {
+    font-size: 0.7em;
+  }
+  .disco__description {
+    font-size: 1.1em;
+  }
+  .disco__title,
+  .disco__discografia,
+  .disco_url {
+    margin: 0.3em 0;
+  }
+
+  /* **************************************** */
+  .article {
+    width: 100%;
+  }
+  .article figure {
+    width: inherit;
+  }
+  .article img {
+    width: inherit;
+  }
+  .description__letra {
+    width: initial;
+    margin: 1em 1.5em;
+    margin-top: -4em;
+  }
+  .description__letra h3 {
+    font-size: 1em;
+  }
+  .description__letra p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 0;
+  }
+  .hero h1 {
+    text-shadow: 2px 2px 2px #000;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .disco__title {
+    font-size: 1.3em;
+  }
+  .disco__discografia {
+    font-size: 0.4em;
+  }
+  .disco__discografia,
+  .disco__url {
+    font-size: 0.4em;
+  }
+  .disco__description {
+    font-size: 0.8em;
+  }
+  .disco__title,
+  .disco__discografia,
+  .disco_url {
+    margin: 0.1em 0;
+  }
+  /* **************************************** */
+  .contact {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .social-link {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+  }
+
+  .form_email button {
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  /* ************************************ */
+  .footer {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
