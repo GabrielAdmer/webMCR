@@ -177,6 +177,7 @@
   .footer {
     display: block;
     text-align: center;
+    padding: 1px;
   }
 }
 @media screen and (max-width: 1024px) {
